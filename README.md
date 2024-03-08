@@ -26,6 +26,7 @@ Install
 Contributing
 ---
 
+to genereate a new mac address use : openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'
 1. Fork it.
 2. Create a branch `git checkout -b my_markup`
 3. Commit your changes `git commit -am "Cool new feature"`
